@@ -11,6 +11,9 @@ phases:
       - REGION=us-east-1
       - REPO_NAME=yeswanthspring
       - IMAGE_TAG=latest
+      - export AWS_ACCESS_KEY_ID=AKIAQMEY6EZHQ5HGZB5Q
+      - export AWS_SECRET_ACCESS_KEY=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
+      - export AWS_DEFAULT_REGION=us-east-1
       - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $ACCOUNT_ID.dkr.ecr.$REGION.amazonaws.com
 
   build:
