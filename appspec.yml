@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:557690580165:task-definition/myspringtask:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:557690580165:task-definition/myspringtask:2"
         LoadBalancerInfo:
           ContainerName: "springhruthin"
           ContainerPort: 8080
