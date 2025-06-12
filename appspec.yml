@@ -6,5 +6,5 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:557690580165:task-definition/project6-task:1"
         LoadBalancerInfo:
-          ContainerName: "hruthincontainer"
+          ContainerName: "springhruthin"
           ContainerPort: 8080
